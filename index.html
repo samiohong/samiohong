@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="translated-ltr">
+<link rel="icon"  href="logo.png">   
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff">
+    <mate name="descripion" content="MARCO工作網站,致力於提升工作表現">
+    <mata name="keywords" content="倉庫管理,產品管理,到期日,價錢,MARCO SYSTEM 1.1">
+    <mata name="author" content="Marco Sam">
+    <mata name="robots" content="all">
+    <mate http-equiv="Cache-Control" content="no-cache,must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <meta content="img/logo.png" itemprop="image">
+    <title>MARCO工作網站</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+                <div class="navbar">
+                    <div class="logo"><a href="#"><img src="logo.png" alt="logo"  height=50px style='border:1px solid #f6f5f8' ></a></div>
+                    <ul class="links">
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="https://drive.google.com/">雲端硬碟</a></li>
+                    <li><a href="https://remotedesktop.google.com">遠程桌面</a></li>
+                    <li><a href="https://wyz8hvts.ipyingshe.net/login.php">工作系統</a></li>
+                    </ul>
+                    <a href="emil.html" class="action_btn">聯絡我</a>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="https://drive.google.com/">雲端硬碟</a></li>
+                    <li><a href="https://remotedesktop.google.com">遠程桌面</a></li>
+                    <li><a href="https://wyz8hvts.ipyingshe.net/login.php">工作系統</a></li>
+                    <li><a href="email.html" class="action_btn">聯絡我</a></li>
+                </div>
+        </header>
+        <main>
+            <section id="hero">
+                <h1>歡迎您!</h1>
+                <p>MARCO工作網站,致力於提升工作表現</p>
+            </section>
+        </main>
+        <script>
+            const toggleBtn=document.querySelector('.toggle_btn')
+            const toggleBtnIcon=document.querySelector('.toggle_btn i')
+            const dropDownMenu=document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick=function(){
+                dropDownMenu.classList.toggle('open')
+                const isOpen=dropDownMenu.classList.contains('open')
+                toggleBtnIcon.classList-isOpen
+                ?'fa-solid fa-xmark'
+                :'fa-solid fa-bars'
+
+
+            }
+        </script>
+</body>
