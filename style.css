@@ -27,7 +27,7 @@ a:hover{
 }
 
 header{
-    position:absolute;
+    position:fixed; 
     width:100%;
     min-height:60px;
     background:#43a5f6;
